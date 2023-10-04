@@ -52,7 +52,7 @@ const App = () => {
           <p className="text-md pt-5 leading-8 text-gray-300">
             Im a junior fullstack web developer. Contact me below!
           </p>
-          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden mt-10">
+          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden mt-10 sm:mx-auto">
             <img src="./shooo.png" alt="" />
           </div>
           <div
