@@ -1,6 +1,13 @@
 import React from "react";
 import { GrInstagram, GrGithub, GrLinkedin } from "react-icons/gr";
-import { SiGmail } from "react-icons/si";
+import { TfiHtml5 } from "react-icons/tfi";
+import { IoLogoCss3, IoLogoReact } from "react-icons/io5";
+import {
+  SiTailwindcss,
+  SiJavascript,
+  SiNodedotjs,
+  SiMysql,
+} from "react-icons/si";
 
 const App = () => {
   return (
@@ -50,9 +57,11 @@ const App = () => {
           </h2>
           <h3 className="text-2xl py-2">Fullstack web developer</h3>
           <p className="text-md pt-5 leading-8 text-gray-300">
-            Im a junior fullstack web developer. Contact me below!
+            I am a junior fullstack web developer who loves code and music.
+            <br />
+            Contact me below!
           </p>
-          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden mt-10 sm:mx-auto">
+          <div className="mx-auto flex justify-center bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden mt-10">
             <img src="./shooo.png" alt="" />
           </div>
           <div
@@ -77,9 +86,6 @@ const App = () => {
             <a href="" className="p-2 rounded-full hover:bg-cyan-600">
               <GrLinkedin />
             </a>
-            <a href="" className="p-2 rounded-full hover:bg-cyan-600">
-              <SiGmail />
-            </a>
           </div>
         </div>
 
@@ -88,24 +94,42 @@ const App = () => {
           <div className="text-3xl py-2 bg-gradient-to-r from-cyan-500 to-teal-500 inline-block text-transparent bg-clip-text font-medium">
             Skill
           </div>
-          <p className="text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
-            dolorum maxime nam laudantium voluptatem harum iste omnis.
-            Voluptatibus, minima dignissimos.
-          </p>
+          <div className="text-3xl flex justify-center flex-wrap gap-10 py-5 text-white dark:text-gray-400">
+            <p>
+              <TfiHtml5 />
+            </p>
+            <p>
+              <IoLogoCss3 />
+            </p>
+            <p>
+              <SiTailwindcss />
+            </p>
+            <p>
+              <SiJavascript />
+            </p>
+            <p>
+              <IoLogoReact />
+            </p>
+            <p>
+              <SiNodedotjs />
+            </p>
+            <p>
+              <SiMysql />
+            </p>
+          </div>
         </div>
 
         {/* Project */}
         <div id="project" className="text-center py-10 pt-20">
           <h1 className="text-3xl py-2 bg-gradient-to-r from-cyan-500 to-teal-500 inline-block text-transparent bg-clip-text font-medium">
-            Project what i've done
+            Project
           </h1>
           <div className="grid grid-cols-2">
             <div>
-              <h2 className="text-2xl bg-gradient-to-r from-cyan-600 to-teal-600 inline-block px-5 rounded-full">
+              <h2 className="text-2xl font-serif bg-gradient-to-r from-cyan-600 to-teal-600 inline-block px-5 rounded-full">
                 Attendify
               </h2>
-              <p>
+              <p className="text-sm">
                 Attendify is a management application with role-based
                 authorization, which also has role-based functionality.
                 Basically Attendify is a simple CRUD application with the main
@@ -113,10 +137,12 @@ const App = () => {
               </p>
             </div>
             <div>
-              <h2 className="text-2xl bg-gradient-to-r from-cyan-600 to-teal-600 inline-block px-5 rounded-full">
+              <h2 className="text-2xl font-serif bg-gradient-to-r from-cyan-600 to-teal-600 inline-block px-5 rounded-full">
                 CRUD database
               </h2>
-              <p>A simple website to input, read, update, and delete data.</p>
+              <p className="text-sm">
+                A simple website to input, read, update, and delete data.
+              </p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4 pt-5">
