@@ -61,7 +61,7 @@ const App = () => {
             <br />
             Contact me below!
           </p>
-          <div className="mx-auto flex justify-center bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden mt-10">
+          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full md:w-80 sm:w-24 md:h-80 overflow-hidden mt-10 flex-none sm:justify-center md:justify-center">
             <img src="./shooo.png" alt="" />
           </div>
           <div
