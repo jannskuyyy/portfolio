@@ -83,7 +83,10 @@ const App = () => {
             >
               <GrGithub />
             </a>
-            <a href="" className="p-2 rounded-full hover:bg-cyan-600">
+            <a
+              href="http://www.linkedin.com/in/putrajanuard"
+              className="p-2 rounded-full hover:bg-cyan-600"
+            >
               <GrLinkedin />
             </a>
           </div>
